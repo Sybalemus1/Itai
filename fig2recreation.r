@@ -16,7 +16,7 @@
 #'
 #' We will recreate the figure using dplyr, tidyr, and ggplot2
 #+ package_loading, warning = FALSE, message = FALSE
-library("dplyr")
+library("dplyr")  ## if you do not have these, download them using the "Packages" tab in bottom right
 library("tidyr")
 library("ggplot2")
 #'
