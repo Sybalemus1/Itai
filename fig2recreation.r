@@ -8,7 +8,7 @@
 #' fungicides applied by chemigation." (DOI:
 #' [10.1016.j/cropro.2016.12.023](https://dx.doi.org/10.1016/j.cropro.2016.12.023)).
 #'
-#' The data are stored in a spreadsheet called "Results_combined-class.csv".
+#' The data are stored in a spreadsheet called "Results_combined-class2019.csv".
 #'
 #' Preparing Data and packages
 #' ===========================
@@ -51,10 +51,10 @@ res
 #' #'
 #' #'
 #' #' Because we will need to transform the data, we will need to include the block
-#' block <- rep(1:12, each = 4)
-#' block
-#' res$Block <- block
-#' res
+block <- rep(1:12, each = 4)
+block
+res$Block <- block
+res
 #'
 #' Reordering factors
 #' ------------------
