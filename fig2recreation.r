@@ -21,9 +21,9 @@ library("tidyr")
 library("ggplot2")
 #'
 #' Now we can read in the data and validate that it is what we expect.
-res <- read.csv("Results_combined-class.csv", head = TRUE, stringsAsFactors = FALSE)
-head(res)
-dim(res)
+# res <- read.csv("Results_combined-class2019.csv", head = TRUE, stringsAsFactors = FALSE)
+# head(res)
+# dim(res)
 #' We can see that we have the columns, DAI, Number, Your.name, Area, and
 #' Treatment.
 #'
@@ -38,13 +38,13 @@ dim(res)
 #' we'll multiply that area by 3 to make sure the effect is large, otherwise
 #' each value will grow by 0.5 each day after infection.
 #'
-#' set.seed(999)
-#' res <- res %>%
-#'   group_by(Treatment) %>% # group the rows by Treatment
-#'   mutate(Area = rnorm(n(), sample(1:10, 1), 1)) %>% # generate random data
-#'   mutate(Area = if ( all(Treatment == "control") ) Area * 3 else Area + DAI*0.5) %>% # manipulate data
-#'   ungroup() # remove the grouping
-#' res
+set.seed(999)
+res <- res %>%
+  group_by(Treatment) %>% # group the rows by Treatment
+  mutate(Area = rnorm(n(), sample(1:10, 1), 1)) %>% # generate random data
+  mutate(Area = if ( all(Treatment == "control") ) Area * 3 else Area + DAI*0.5) %>% # manipulate data
+  ungroup() # remove the grouping
+res
 #' #'
 #' #' Adding in Block information
 #' #' ---------------------------
@@ -179,3 +179,4 @@ ggplot(percents, aes(x = DAI, y = Area, group = Treatment)) +
     y = "Percent disease control",
     pch = "Irrigation levels",
     lty = "Irrigation levels"))
+
