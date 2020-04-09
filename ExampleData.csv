@@ -95,38 +95,38 @@ DAI,Number,Your name,Area,Treatment,Block
 3,46,JDR,9.222,5.07 mm water,12
 3,47,JDR,8.677,10.13 mm water,12
 3,48,JDR,21.035,control,12
-5,1,,,control,1
-5,2,,,2.53 mm water,1
-5,3,,,5.07 mm water,1
-5,4,,,10.13 mm water,1
-5,5,,,10.13 mm water,2
-5,6,,,control,2
-5,7,,,2.53 mm water,2
-5,8,,,5.07 mm water,2
-5,9,,,5.07 mm water,3
-5,10,,,10.13 mm water,3
-5,11,,,control,3
-5,12,,,2.53 mm water,3
-5,13,,,2.53 mm water,4
-5,14,,,5.07 mm water,4
-5,15,,,10.13 mm water,4
-5,16,,,control,4
-5,17,,,control,5
-5,18,,,2.53 mm water,5
-5,19,,,5.07 mm water,5
-5,20,,,10.13 mm water,5
-5,21,,,10.13 mm water,6
-5,22,,,control,6
-5,23,,,2.53 mm water,6
-5,24,,,5.07 mm water,6
-5,25,,,5.07 mm water,7
-5,26,,,10.13 mm water,7
-5,27,,,control,7
-5,28,,,2.53 mm water,7
-5,29,,,2.53 mm water,8
-5,30,,,5.07 mm water,8
-5,31,,,10.13 mm water,8
-5,32,,,control,8
+5,1,None,0,control,1
+5,2,None,0,2.53 mm water,1
+5,3,None,0,5.07 mm water,1
+5,4,None,0,10.13 mm water,1
+5,5,None,0,10.13 mm water,2
+5,6,None,0,control,2
+5,7,None,0,2.53 mm water,2
+5,8,None,0,5.07 mm water,2
+5,9,None,0,5.07 mm water,3
+5,10,None,0,10.13 mm water,3
+5,11,None,0,control,3
+5,12,None,0,2.53 mm water,3
+5,13,None,0,2.53 mm water,4
+5,14,None,0,5.07 mm water,4
+5,15,None,0,10.13 mm water,4
+5,16,None,0,control,4
+5,17,None,0,control,5
+5,18,None,0,2.53 mm water,5
+5,19,None,0,5.07 mm water,5
+5,20,None,0,10.13 mm water,5
+5,21,None,0,10.13 mm water,6
+5,22,None,0,control,6
+5,23,None,0,2.53 mm water,6
+5,24,None,0,5.07 mm water,6
+5,25,None,0,5.07 mm water,7
+5,26,None,0,10.13 mm water,7
+5,27,None,0,control,7
+5,28,None,0,2.53 mm water,7
+5,29,None,0,2.53 mm water,8
+5,30,None,0,5.07 mm water,8
+5,31,None,0,10.13 mm water,8
+5,32,None,0,control,8
 5,33,Sarah,4.348,control,9
 5,34,Sarah,2.273,2.53 mm water,9
 5,35,Sarah,1.151,5.07 mm water,9

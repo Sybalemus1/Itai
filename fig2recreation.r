@@ -21,14 +21,14 @@ library("tidyr")
 library("ggplot2")
 #'
 #' Now we can read in the data and validate that it is what we expect.
-# res <- read.csv("Results_combined-class2019.csv", head = TRUE, stringsAsFactors = FALSE)
-# head(res)
-# dim(res)
+res <- read.csv("ExampleData.csv", head = TRUE, stringsAsFactors = FALSE)
+head(res)
+dim(res)
 #' We can see that we have the columns, DAI, Number, Your.name, Area, and
 #' Treatment.
 #'
-#' Simulation
-#' ----------
+#' Creating simulated data set if we don't have a file to import
+#' ---------------------------------------------------------
 #'
 #' For the moment, I'm going to simulate some data to recreate the
 #' figure, so this block of code can be deleted when the data is all filled.
@@ -38,6 +38,7 @@ library("ggplot2")
 #' we'll multiply that area by 3 to make sure the effect is large, otherwise
 #' each value will grow by 0.5 each day after infection.
 #'
+#
 set.seed(999)
 res <- res %>%
   group_by(Treatment) %>% # group the rows by Treatment
@@ -180,3 +181,8 @@ ggplot(percents, aes(x = DAI, y = Area, group = Treatment)) +
     pch = "Irrigation levels",
     lty = "Irrigation levels"))
 
+#' Once you have completed the analysis of your leaf area measurements taken by
+#' the class.  Please upload an image of your screen showing RStudio, with the
+#' plot visualized in the lower right-hand corner.  Contact me if you need
+#' assistance running the data analysis. Here is URL to HW6 to upload results:
+#' https://canvas.unl.edu/courses/74116/assignments/641050
